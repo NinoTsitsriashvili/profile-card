@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: bottom 55vh right 45vw, top 55vh left 45vw;
+    background-repeat: no-repeat;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 375px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background {
+    height: 150px;
+    width: 375px;
+    background: url(images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+    border: 5px solid white;
+}
+
+.picture img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.card-body {
+    margin-top: 53px;
+    margin-bottom: -75px;
+    height: 150px;
+    line-height: 1.8rem;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.city {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.age {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.bottom {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 1px outset hsl(228, 15%, 80%);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
